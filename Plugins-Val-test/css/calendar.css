@@ -1,0 +1,34 @@
+
+.calendar__table {
+    width: 100%;
+    height: calc(100vh -  98px)!important;
+}
+
+.calendar__table td {
+     border: 1px solid black;
+     padding: 10px;
+     vertical-align: top;
+     height: 20%;
+ }
+ .calendar__table--6weeks td {
+     height: 16,66%;
+ }
+
+.calendar__othermouth {
+    opacity: 0,1;
+    color: #d7beb7;
+}
+.calendar__weekday {
+    font-weight: bold ;
+    color: black;
+}
+.btn-calendar {
+    color: black;
+    padding-left: 30px;
+}
+.style-monthbtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
